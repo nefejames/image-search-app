@@ -21,9 +21,9 @@ const inputFetch = async () => {
       <div class="image-box">
         <img src="${previewURL}" alt="an image taken by ${user}" loading="lazy"/>
         <div class="details">
-          <p>downloads <span>${downloads}</span></p>
-          <p>likes <span>${likes}</span></p>
-          <p>views <span>${views}</span></p>
+          <p>${downloads} downloads</p>
+          <p>${likes} likes</p>
+          <p>${views} views</p>
         </div>
       </div>`;
   });
@@ -50,11 +50,11 @@ dropDown.addEventListener("change", (e) => {
 
       imagesContainer.innerHTML += `
       <div class="image-box">
-        <img src="${previewURL}"  alt="an image taken by ${user}" loading="lazy"/>
+        <img src="${previewURL}" alt="an image taken by ${user}" loading="lazy"/>
         <div class="details">
-          <p>downloads <span>${downloads}</span></p>
-          <p>likes <span>${likes}</span></p>
-          <p>views <span>${views}</span></p>
+          <p>${downloads} downloads</p>
+          <p>${likes} likes</p>
+          <p>${views} views</p>
         </div>
       </div>`;
     });
