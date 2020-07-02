@@ -1,0 +1,13 @@
+header {
+  padding: 1rem 0;
+  color: white;
+  background: $heading-color;
+
+  h1 {
+    text-transform: capitalize;
+    display: block;
+    width: 90%;
+    font-size: 1.7rem;
+    margin: 0 auto;
+  }
+}
